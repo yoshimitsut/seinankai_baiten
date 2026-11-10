@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+*/node_modules/
+
+# Builds
+dist/
+*/dist/
+
+# Variáveis de ambiente
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Dados do Docker / MySQL
+docker/mysql/data/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
